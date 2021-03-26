@@ -16,9 +16,14 @@ int main()
   printf("Input a string: ");
   scanf("%s", s);
 
-  while (s[c] != '\0') {
-                               //place logic to find the vowel
+  for(c=0;c<500;c++)
+  {
+  if(s[c]=='i')
+  {
+    count++;
   }
+  }
+                               //place logic to find the vowe
 
   printf("Number of vowels in the string = %d", count);
 
